@@ -5,8 +5,10 @@
 // @grant       none
 // @version     1.0.1
 // @author      derivativeoflog7
-// @description Disable Reddit's new idiotic auto-translate feature
+// @description Disable Reddit's new auto-translate feature
 // @run-at      document-start
+// @license     GPL3
+// @supportURL  https://github.com/derivativeoflog7/reddit-no-autotranslate
 // ==/UserScript==
 
 
