@@ -3,4 +3,4 @@
 
 Disable Reddit's new idiotic anti-translate feature
 
-Will upload to Greasy Fork when I can, as I just created an account there
+https://greasyfork.org/it/scripts/510437-reddit-no-auto-translate
