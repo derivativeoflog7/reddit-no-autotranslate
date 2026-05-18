@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://*.reddit.com/*
 // @grant       none
-// @version     1.0.3
+// @version     1.0.4
 // @author      derivativeoflog7
 // @description Disable Reddit's new auto-translate feature
 // @run-at      document-start
@@ -17,7 +17,7 @@
     var reg = /(?<=[?&])tl=.+?($|&)/;
     var currUrl = window.location.href;
     if (currUrl.match(reg)) {
-        var newUrl = currUrl.replace(reg, "");
+        var newUrl = currUrl.replace(reg, "show=original");
         window.location.href = newUrl;
     }
 })();
